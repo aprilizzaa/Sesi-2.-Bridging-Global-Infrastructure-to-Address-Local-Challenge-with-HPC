@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id" class="h-full bg-slate-900 text-slate-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Kasus High Performance Computing - Thammasat University</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Alpine.js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="h-full font-sans antialiased bg-slate-900 text-slate-100">
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-slate-800/90 backdrop-blur border-b border-slate-700 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="p-2 bg-cyan-600 rounded-lg text-white">
+                        <i class="fa-solid fa-microchip text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-lg leading-tight text-white">Informatics Practitioner Lecture Series</h1>
+                        <p class="text-xs text-cyan-400">Bridging Global Infrastructure to Address Local Challenges with HPC</p>
+                    </div>
+                </div>
+                <div class="text-xs bg-cyan-950/80 text-cyan-300 border border-cyan-700/50 px-3 py-1.5 rounded-lg font-medium">
+                    Informatika Universitas Bengkulu
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+        <!-- Hero Banner Sesi 2 -->
+        <div class="bg-gradient-to-r from-cyan-900/60 via-slate-800 to-teal-950/80 border border-cyan-500/30 rounded-2xl p-6 md:p-8 mb-8 shadow-xl">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <span class="bg-cyan-500/20 text-cyan-300 text-xs font-bold px-3 py-1 rounded-full border border-cyan-500/40 uppercase tracking-wider">Studi Kasus High Performance Computing</span>
+                    <h2 class="text-2xl md:text-3xl font-extrabold text-white mt-2">Bridging Global Infrastructure to Address Local Challenges</h2>
+                    <p class="text-slate-300 text-sm mt-1">Pemateri: <span class="font-semibold text-cyan-300">Asst. Prof. Dr. Worawan Diaz Carballo</span> (Thammasat University, Thailand)</p>
+                </div>
+                <div class="flex items-center space-x-2 bg-slate-900/80 px-4 py-2 rounded-xl border border-slate-700 text-xs text-slate-300">
+                    <i class="fa-solid fa-server text-cyan-400 text-lg"></i>
+                    <span>Infrastruktur: <strong>Superkomputer & Exaflops Scale</strong></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Global HPC Stats -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 shadow-lg">
+                <p class="text-xs font-medium text-slate-400">Kecepatan Superkomputer</p>
+                <div class="flex items-baseline space-x-2 mt-1">
+                    <span class="text-2xl font-bold text-cyan-400">Exaflops</span>
+                </div>
+                <p class="text-xs text-slate-500 mt-2">10<sup>18</sup> Floating Point Ops / Detik</p>
+            </div>
+            <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 shadow-lg">
+                <p class="text-xs font-medium text-slate-400">Superkomputer Dunia</p>
+                <div class="flex items-baseline space-x-2 mt-1">
+                    <span class="text-xl font-bold text-white">El Capitan, Fugaku, Lumi</span>
+                </div>
+                <p class="text-xs text-slate-500 mt-2">Simulasi Sains & AI Skala Besar</p>
+            </div>
+            <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 shadow-lg">
+                <p class="text-xs font-medium text-slate-400">Superkomputer ASEAN</p>
+                <div class="flex items-baseline space-x-2 mt-1">
+                    <span class="text-xl font-bold text-teal-400">Lanta (Thailand) / KISTI</span>
+                </div>
+                <p class="text-xs text-slate-500 mt-2">Infrastruktur Kolaborasi Regional</p>
+            </div>
+            <div class="bg-slate-800 border border-slate-700 rounded-xl p-5 shadow-lg">
+                <p class="text-xs font-medium text-slate-400">Target Mahasiswa</p>
+                <div class="flex items-baseline space-x-2 mt-1">
+                    <span class="text-2xl font-bold text-amber-400">Integrator</span>
+                </div>
+                <p class="text-xs text-slate-500 mt-2">Menghubungkan Solusi & Komputasi</p>
+            </div>
+        </div>
+
+        <!-- Real-World Local Innovation Projects Showcase -->
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-xl mb-8">
+            <h3 class="text-lg font-bold text-white mb-4 flex items-center space-x-2">
+                <i class="fa-solid fa-earth-asia text-cyan-400"></i>
+                <span>Inovasi Lokal Berbasis HPC (Studi Kasus Asia Tenggara)</span>
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-700 hover:border-cyan-500 transition-all">
+                    <div class="text-cyan-400 text-2xl mb-2"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                    <h4 class="font-bold text-sm text-white">1. Prediksi Cuaca & PM2.5</h4>
+                    <p class="text-xs text-slate-400 mt-2">Memangkas durasi pemodelan cuaca & polusi udara dari 3 hari menjadi 45 menit menggunakan Superkomputer Lanta untuk perlindungan kesehatan.</p>
+                </div>
+
+                <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-700 hover:border-cyan-500 transition-all">
+                    <div class="text-teal-400 text-2xl mb-2"><i class="fa-solid fa-building-user"></i></div>
+                    <h4 class="font-bold text-sm text-white">2. Simulasi Energi Gedung (TwinB)</h4>
+                    <p class="text-xs text-slate-400 mt-2">Menggabungkan <i>EnergyPlus</i> fisik gedung dengan <i>Agent-Based Simulation</i> manusia untuk menguji kebijakan efisiensi listrik kampus.</p>
+                </div>
+
+                <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-700 hover:border-cyan-500 transition-all">
+                    <div class="text-emerald-400 text-2xl mb-2"><i class="fa-solid fa-capsules"></i></div>
+                    <h4 class="font-bold text-sm text-white">3. Obat Herbal Asma (Molecular Docking)</h4>
+                    <p class="text-xs text-slate-400 mt-2">Menganalisis potensi tanaman lokal untuk spray asma menggunakan <i>High-Throughput Molecular Docking</i> pada HPC.</p>
+                </div>
+
+                <div class="p-4 bg-slate-900/80 rounded-xl border border-slate-700 hover:border-cyan-500 transition-all">
+                    <div class="text-amber-400 text-2xl mb-2"><i class="fa-solid fa-language"></i></div>
+                    <h4 class="font-bold text-sm text-white">4. Penerjemah Bahasa Hmong</h4>
+                    <p class="text-xs text-slate-400 mt-2">Membangun <i>Speech-to-Text</i> dan <i>Text-to-Speech</i> untuk bahasa minoritas Suku Hmong agar mendapatkan akses pendidikan & medis seimbang.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Integrator Pathway for Informatics Students -->
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-xl mb-8">
+            <h3 class="text-lg font-bold text-white mb-6 flex items-center space-x-2">
+                <i class="fa-solid fa-graduation-cap text-cyan-400"></i>
+                <span>Tahapan Perkembangan Mahasiswa Informatika (The Integrator Roadmap)</span>
+            </h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 text-xs">
+                <div class="p-4 bg-slate-900 rounded-xl border-t-4 border-slate-500">
+                    <span class="font-bold text-slate-400 block mb-1">TAHAP 1</span>
+                    <strong class="text-white text-sm block mb-2">Learner</strong>
+                    <p class="text-slate-400">Menguasai dasar Arsitektur Komputer, Jaringan, Sistem Operasi Linux, dan Pemrograman Paralel (MPI/OpenMP).</p>
+                </div>
+
+                <div class="p-4 bg-slate-900 rounded-xl border-t-4 border-cyan-500">
+                    <span class="font-bold text-cyan-400 block mb-1">TAHAP 2</span>
+                    <strong class="text-white text-sm block mb-2">Practitioner</strong>
+                    <p class="text-slate-400">Mengikuti kompetisi HPC (APAC HPC-AI), mengeksekusi skrip Bash <i>sbatch</i>, dan <i>performance tuning</i> GPU PyTorch.</p>
+                </div>
+
+                <div class="p-4 bg-slate-900 rounded-xl border-t-4 border-blue-500">
+                    <span class="font-bold text-blue-400 block mb-1">TAHAP 3</span>
+                    <strong class="text-white text-sm block mb-2">Facilitator</strong>
+                    <p class="text-slate-400">Membangun komunitas mahasiswa (ACM Student Chapter), menjadi mentor sebaya, dan berbagi pengalaman komputasi.</p>
+                </div>
+
+                <div class="p-4 bg-slate-900 rounded-xl border-t-4 border-indigo-500">
+                    <span class="font-bold text-indigo-400 block mb-1">TAHAP 4</span>
+                    <strong class="text-white text-sm block mb-2">Innovator</strong>
+                    <p class="text-slate-400">Menghubungkan ahli domain (biologi/pertanian) dengan superkomputer untuk menyelesaikan masalah lokal nyata.</p>
+                </div>
+
+                <div class="p-4 bg-slate-900 rounded-xl border-t-4 border-emerald-500">
+                    <span class="font-bold text-emerald-400 block mb-1">TAHAP 5</span>
+                    <strong class="text-white text-sm block mb-2">Domain Expert</strong>
+                    <p class="text-slate-400">Mempublikasikan paper ilmiah berstandar <i>Artifact Evaluation</i> atau mendirikan <i>startup</i> berbasis komputasi.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interactive HPC Resource & Flops Estimator -->
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl p-6 shadow-xl" x-data="{
+            numNodes: 2,
+            gpusPerNode: 4,
+            hoursNeeded: 12,
+            get totalGpus() { return this.numNodes * this.gpusPerNode; },
+            get estimatedTeraFlops() { return this.totalGpus * 312; },
+            get totalGpuHours() { return this.totalGpus * this.hoursNeeded; }
+        }">
+            <h3 class="text-lg font-bold text-white mb-2 flex items-center space-x-2">
+                <i class="fa-solid fa-calculator text-cyan-400"></i>
+                <span>Kalkulator Estimasi Resource & Performansi HPC</span>
+            </h3>
+            <p class="text-xs text-slate-400 mb-6">Hitung kebutuhan GPU jam dan performansi FLOPS untuk running job simulasi/AI di klaster superkomputer.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="space-y-4">
+                    <div>
+                        <div class="flex justify-between text-xs mb-1">
+                            <label class="text-slate-300 font-medium">Jumlah Compute Node</label>
+                            <span class="text-cyan-400 font-bold" x-text="numNodes + ' Node'"></span>
+                        </div>
+                        <input type="range" min="1" max="16" step="1" x-model="numNodes" class="w-full accent-cyan-500 bg-slate-700 h-2 rounded-lg cursor-pointer">
+                    </div>
+
+                    <div>
+                        <div class="flex justify-between text-xs mb-1">
+                            <label class="text-slate-300 font-medium">GPU per Node</label>
+                            <span class="text-cyan-400 font-bold" x-text="gpusPerNode + ' GPU'"></span>
+                        </div>
+                        <input type="range" min="1" max="8" step="1" x-model="gpusPerNode" class="w-full accent-cyan-500 bg-slate-700 h-2 rounded-lg cursor-pointer">
+                    </div>
+
+                    <div>
+                        <div class="flex justify-between text-xs mb-1">
+                            <label class="text-slate-300 font-medium">Estimasi Durasi Running (Jam)</label>
+                            <span class="text-cyan-400 font-bold" x-text="hoursNeeded + ' Jam'"></span>
+                        </div>
+                        <input type="range" min="1" max="72" step="1" x-model="hoursNeeded" class="w-full accent-cyan-500 bg-slate-700 h-2 rounded-lg cursor-pointer">
+                    </div>
+                </div>
+
+                <div class="md:col-span-2 bg-slate-900/80 border border-slate-700/80 rounded-xl p-5 flex flex-col justify-between">
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div class="bg-slate-800/80 p-3 rounded-lg border border-slate-700">
+                            <span class="text-xs text-slate-400 block">Total Akselerator GPU</span>
+                            <span class="text-2xl font-black text-white mt-1 block" x-text="totalGpus"></span>
+                        </div>
+                        <div class="bg-slate-800/80 p-3 rounded-lg border border-slate-700">
+                            <span class="text-xs text-slate-400 block">Kapasitas Komputasi</span>
+                            <span class="text-2xl font-black text-cyan-400 mt-1 block" x-text="(estimatedTeraFlops / 1000).toFixed(2) + ' PFLOPS'"></span>
+                        </div>
+                        <div class="bg-slate-800/80 p-3 rounded-lg border border-slate-700">
+                            <span class="text-xs text-slate-400 block">Konsumsi Resource</span>
+                            <span class="text-2xl font-black text-amber-400 mt-1 block" x-text="totalGpuHours + ' GPU-Hours'"></span>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 p-3 bg-cyan-950/40 border border-cyan-800/40 rounded-lg text-xs text-slate-300">
+                        <i class="fa-solid fa-circle-info text-cyan-400 mr-1"></i>
+                        Dengan konfigurasi <strong x-text="numNodes"></strong> node dan <strong x-text="totalGpus"></strong> GPU, Anda dapat menyelesaikan pekerjaan simulasi skala besar (seperti pemodelan iklim atau fine-tuning LLM) secara paralel hingga <strong x-text="(totalGpus * 0.85).toFixed(0) + 'x lebih cepat'"></strong> dibanding server tunggal.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-800 py-6 text-center text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>Program Studi Informatika — Fakultas Teknik, Universitas Bengkulu</p>
+            <p class="mt-1 text-slate-600">Sesi 2: Practical Lecture Series - Thammasat University (Asst. Prof. Dr. Worawan Diaz Carballo)</p>
+        </div>
+    </footer>
+
+</body>
+</html>

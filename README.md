@@ -1,27 +1,43 @@
-🌐 Sesi 2: Bridging Global Infrastructure to Address Local Challenges with HPC
-Proyek ini berisi Executive Dashboard & Interactive Simulator berbasis web untuk studi kasus pemanfaatan infrastruktur komputasi berperforma tinggi (High Performance Computing / HPC) dan Superkomputer global untuk menyelesaikan tantangan lokal di Asia Tenggara. Berkas ini disusun berdasarkan materi kuliah praktisi oleh Asst. Prof. Dr. Worawan Diaz Carballo (Thammasat University, Thailand).
+# 🌐 Sesi 2: Bridging Global Infrastructure to Address Local Challenges with HPC
 
-📌 Ringkasan Studi Kasus
-Perkembangan AI dan simulasi sains berskala besar membutuhkan kapasitas komputasi tingkat tinggi dalam skala Exaflops (
-10
-18
- Floating Point Operations per detik). Proyek ini membahas bagaimana infrastruktur superkomputer global dan regional (seperti Fugaku, Lumi, El Capitan, serta Lanta di Thailand & KISTI di Korea) dijembatani untuk menjawab berbagai tantangan nyata di masyarakat lokal:
+Proyek ini berisi Executive Dashboard & Interactive Simulator berbasis web untuk studi kasus **High Performance Computing (HPC)** dan pemanfaatan superkomputer global untuk menyelesaikan tantangan lokal di Asia Tenggara. Materi ini disusun berdasarkan kuliah praktisi oleh **Asst. Prof. Dr. Worawan Diaz Carballo** (Thammasat University, Thailand).
 
-Prediksi Cuaca & Polusi PM2.5: Memangkas waktu pemodelan iklim dari 3 hari menjadi 45 menit.
-Simulasi Energi Gedung (TwinB): Integrasi EnergyPlus fisik bangunan dengan Agent-Based Simulation perilaku manusia untuk efisiensi listrik.
-Penemuan Obat Herbal Asma: Screening senyawa tanaman lokal berbasis High-Throughput Molecular Docking.
-Penerjemah Bahasa Suku Hmong: Pengembangan sistem Speech-to-Text dan Text-to-Speech untuk kelompok bahasa minoritas.
-🚀 Fitur Utama Web Dashboard
-Executive HPC & Exaflops Metrics: Indikator kapasitas komputasi superkomputer global dan ASEAN.
-Local Challenge Innovation Showcase: Kartu interaktif yang menampilkan 4 studi kasus inovasi nyata di Asia Tenggara.
-The Integrator Roadmap: Jalur perkembangan mahasiswa Informatika dari Learner → Practitioner → Facilitator → Innovator → Domain Expert.
-Interactive HPC Resource & FLOPS Estimator: Kalkulator interaktif untuk menghitung kebutuhan GPU-Hours, TeraFLOPS/PetaFLOPS, dan percepatan paralelisme simulasi.
-🛠️ Teknologi yang Digunakan
-HTML5 & Tailwind CSS: Antarmuka responsif bernuansa dark mode modern.
-Alpine.js: Logika kalkulator interaktif kebutuhan node & GPU jam.
-FontAwesome: Ikonografi teknis komputasi & jaringan.
-💻 Cara Menjalankan Aplikasi
-Unduh atau clone repositori ini:
-git clone https://github.com/aprilizzaa/Sesi-2.-Bridging-Global-Infrastructure-to-Address-Local-Challenges-with-HPC.git
-Buka berkas index.html (atau berkas HTML utama) langsung di peramban web (Google Chrome, Edge, Firefox, dll.).
-🎓 Dipublikasikan untuk Informatics Practitioner Lecture Series — Program Studi Informatika, Fakultas Teknik, Universitas Bengkulu.
+---
+
+## 📌 Ringkasan Studi Kasus
+
+Perkembangan superkomputer berskala *Exaflops* (seperti El Capitan, Fugaku, Lumi, dan Lanta) membuka peluang besar untuk memecahkan berbagai masalah nyata secara paralel. Mahasiswa Informatika didorong untuk menjadi seorang **Integrator**—penghubung antara ahli domain spesifik dan infrastruktur komputasi performa tinggi.
+
+Aplikasi web ini menyajikan:
+- **Inovasi Lokal Berbasis HPC**:
+  1. *Prediksi Cuaca & PM2.5*: Memangkas durasi pemodelan dari 3 hari menjadi 45 menit.
+  2. *Simulasi Energi Gedung (TwinB)*: Pemodelan gabungan *EnergyPlus* fisik gedung dan perilaku manusia.
+  3. *Obat Herbal Asma*: Pengujian *Molecular Docking* kandidat obat spray asma dari tanaman lokal.
+  4. *Penerjemah Bahasa Minoritas*: Model *Speech-to-Text/Text-to-Speech* untuk Suku Hmong.
+- **The Integrator Roadmap**: Tahapan perkembangan mahasiswa (*Learner* ➔ *Practitioner* ➔ *Facilitator* ➔ *Innovator* ➔ *Domain Expert*).
+- **Interactive HPC Resource & FLOPS Estimator**: Kalkulator untuk menghitung konsumsi *GPU-Hours* dan estimasi kecepatan komputasi.
+
+---
+
+## 🚀 Fitur Utama Web Dashboard
+
+- **Executive HPC Metrics**: Ringkasan performansi komputasi berskala Exaflops dan ekosistem superkomputer ASEAN.
+- **Inovasi Lokal Showcase**: Kartu interaktif yang memuat ringkasan 4 proyek nyata berbasis HPC.
+- **Integrator Pathway**: Visualisasi langkah demi langkah bagi mahasiswa untuk berkembang dari pembelajar dasar hingga pakar domain.
+- **Kalkulator Resource HPC**: Simulator interaktif berbasis Alpine.js untuk menghitung estimasi node, total GPU, kapasitas PFLOPS, dan waktu eksekusi job.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **HTML5 & Tailwind CSS**: Tampilan antarmuka modern, responsif, dan rapi.
+- **Alpine.js**: Komponen interaktif untuk kalkulator estimasi resource HPC.
+- **FontAwesome**: Ikon visual yang intuitif.
+
+---
+
+## 💻 Cara Menjalankan Aplikasi
+
+1. Unduh atau *clone* repositori ini:
+   ```bash
+   git clone [https://github.com/aprilizzaa/Sesi-2.-Bridging-Global-Infrastructure-to-Address-Local-Challenges-with-HPC.git](https://github.com/aprilizzaa/Sesi-2.-Bridging-Global-Infrastructure-to-Address-Local-Challenges-with-HPC.git)
